@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+div.go{
+   position: absolute;
+    color: white;
+    right: 2px;
+   width: 21%;
+   border-radius: 200px;
+   
+}
+.act{
+  background-color: transparent;
+}
+.act{
+  background-color: transparent;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#A7A1AE ;
+}
+
+/* purrrchasse */
+  
+  .purchase {
+    border-top:11px solid transparent;
+    text-align:center;
+  }
+
+  .purchase-trigger {
+    border:2px solid #333;
+    border-radius:10px;
+    font-size:8px;
+    display:inline-block;
+    cursor:pointer;
+    position:relative;
+  }
+  
+  .purchase-trigger * {
+    -webkit-transition: 0.3s cubic-bezier(0.540, 1.410, 0.540, 0.870);
+    -moz-transition: 0.3s cubic-bezier(0.540, 1.410, 0.540, 0.870);
+    -o-transition: 0.3s cubic-bezier(0.540, 1.410, 0.540, 0.870);
+    transition: 0.3s cubic-bezier(0.540, 1.410, 0.540, 0.870);
+    
+    -webkit-transition: 0.4s cubic-bezier(0.165, 0.925, 0.510, 1.005);
+    -moz-transition: 0.4s cubic-bezier(0.165, 0.925, 0.510, 1.005);
+    -o-transition: 0.4s cubic-bezier(0.165, 0.925, 0.510, 1.005);
+    transition: 0.4s cubic-bezier(0.165, 0.925, 0.510, 1.005);
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .purchase-trigger span {
+    padding:7px 40px;  
+    color:#E85700;
+    width:246px;
+    display: inline-block;
+  }
+  .purchase-trigger .bubble {
+    position:absolute;
+    background:transparent;
+    top:0;
+    border-radius:25px;
+    left:0;
+    height:34px;
+    width: 106px;
+    z-index:-1;
+  }
+  .purchase-trigger.right .bubble {
+    margin-left:246px;  
+  }
+  
+  .purchase-trigger:not(.right) .annual {
+    color: transparent;
+  }
+  .purchase-trigger.right .monthly {
+    color: transparent;
+  }
+  
+  .purchase ul {
+    display:table;
+    margin:70px auto 0;
+    width:100%;
+    max-width:1100px;
+  }
+  .purchase li {
+    display:table-cell;
+    width:17.333%;
+    padding:23px 0 0;
+    -webkit-transition: 0;
+    -webkit-transition: all 0.25s, color 0s !important;
+    -moz-transition: all 0.25s, color 0s !important;
+    -o-transition: all 0.25s, color 0s !important;
+    transition: all 0.25s, color 0s !important;
+    position:relative;
+    z-index:0;
+    border:1px solid brown;
+  }
+  
+  .purchase li:first-child {
+    position:relative;
+    right:-60px; 
+  }
+  .purchase li:last-child {
+    position:relative;
+    left:-1px;  
+  }
+
+  
+  .purchase li:hover {
+    box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
+    z-index:1;
+    color:#fff;
+    background:#E85700;
+    border-color:#E85700;
+    -webkit-transform:scale(1.05);
+  }
+  
+  .purchase li * {
+    -webkit-transition: 0 !important;
+    -moz-transition: 0 !important;
+    -o-transition: 0 !important;
+    transition: 0 !important;
+  }
+  
+  .purchase li:hover * {
+    color:#fff !important;
+    border-color:rgba(255, 255, 255, 0.27) !important;
+  }
+  
+  
+  
+  .purchase li strong {
+    font-size:19px;
+    text-transform:uppercase;
+    font-family: AvenirLTStd-Heavy;
+    color:#2F3740;
+    letter-spacing:2.4px;
+    line-height:45px;
+    font-weight:400;
+    margin-bottom: 2px;
+    display: inline-block;
+  }
+  
+  .purchase ul .purchase-description {
+    display:block;
+    font-size:10px;
+    line-height:15px;
+  }
+  
+  .purchase .purchase-price {
+    font-size:44px;
+    letter-spacing:1px;
+    padding-top:10px;
+    display:block;
+    font-weight:200;
+    padding-bottom:6px;
+  }
+  .purchase .purchase-button {
+    text-transform:uppercase;
+    font-size:19px;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color:#2F3740;
+    text-decoration:none;
+    line-height:1;
+    padding:28px 0 24px;
+    border-top:1px solid #bbb;
+    width:100%;
+    display:inline-block;
+    margin-top:6px;
+    display:block;
+  }
+  .purchase li:hover .purchase-button {
+    
+    -webkit-transition: 0;
+    -moz-transition: 0;
+    -o-transition: 0;
+    transition: 0;
+  }
+  
+  
+  .purchase ul a:hover {
+    color:#E85700;
+  }
+
+.purchase ul a, .purchase ul a:hover .purchase-price, .purchase ul a:hover .purchase-description {
+color: #E85700;
+  text-decoration:none;
+}
+designmodo.com/media="all"
+.purchase li * {
+-webkit-transition: 0 !important;
+-moz-transition: 0 !important;
+-o-transition: 0 !important;
+transition: 0 !important;
+}
+

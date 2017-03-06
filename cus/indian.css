@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+div.go{
+   position: absolute;
+    color: white;
+    right: 2px;
+   width: 21%;
+   border-radius: 200px;
+   
+}
+.act{
+  background-color: transparent;
+}
+.act{
+  background-color: transparent;
+}
+li {
+    float: left;
+}
+
+li a {
+  font-family: 'Tangerine', serif;
+    font-size: 30px !important;
+    text-decoration: none;
+    color: white !important;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 4px;
+    text-decoration: none;
+    letter-spacing: 2px
+}
+
+li a:hover:not(.active) {
+    background-color:transparent ;
+}
+                           div.tab {
+                            border:1px solid #333;
+                           background-color: ;
+                            border-radius:5px;
+                            border-color: white;
+                             padding:8px;
+                           }
+                           div.btn btn-success
+                           {
+                            background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                           }
