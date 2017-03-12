@@ -1,0 +1,132 @@
+body{
+ background-color: #1F2739;
+}
+.review{
+  margin-top: 200px;
+  margin-left: 450px;
+  width: 40%;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+}
+
+.view{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.button{
+  float: right;
+  background-color: green;
+  border: 1px solid black;
+
+
+}
+p{
+  color:white;
+}
+button{
+  color:white;
+  background-color: transparent;
+  border: none;
+  padding: : 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+textarea{
+  margin-left: 20px;
+}
+  fieldset{
+    
+  text-align:  center;
+  margin-top: 100px;
+  color: white;
+  width: 50%;
+ 
+}
+label{
+  float: left;
+  position: fixed;
+  color: white;
+  
+}
+label[for="rating"]
+{
+  float: left;
+  
+  margin-left: -155px;
+  margin-bottom: 30px;
+}
+label[for="review"]
+{
+  float: left;
+  margin-left: -95px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+textarea{
+  margin-top: 200px;
+}
+.ratingr {
+
+    overflow: hidden;
+
+    vertical-align: bottom;
+    display: inline-block;
+
+    width: auto;
+
+    height: 30px;
+
+  }
+
+   
+
+  .ratingr > input {
+
+    opacity: 0;
+
+    margin-right: -100%;
+
+  }
+
+   
+
+  .ratingr > label {
+
+    position: relative;
+
+    display: block;
+
+    float: right;
+
+    background: url('star-off-big.png');
+
+    background-size: 30px 30px;
+
+  }
+
+   
+
+  .ratingr > label:before {
+
+    display: block;
+
+    opacity: 0;
+
+    content: '';
+
+    width: 30px;
+
+    height: 30px;
+
+    background: url('star-on-big.png');
+
+    background-size: 30px 30px;
+
+    transition: opacity 0.2s linear;
+
+  }
+
+   
+
+   .ratingr > label:hover:before,  .ratingr > label:hover ~ label:before,  .ratingr:not(:hover) > :checked ~ label:before { opacity: 1; }
